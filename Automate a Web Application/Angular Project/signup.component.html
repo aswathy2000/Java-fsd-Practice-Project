@@ -1,0 +1,16 @@
+<div class="container">
+    <h2>Sign Up</h2>
+    <form class = "signin-form">
+        <label>Email: </label><br>
+        <input type="text" placeholder=" Enter Email " id="email"/><br><br><br>
+        <label>Username: </label><br>
+        <input type="text" placeholder=" Enter Username " id="sign-username"/><br><br><br>
+        <label>Password: </label><br>
+        <input type="password" placeholder=" Enter Password " id="sign-password"/><br><br><br>
+        <button type="submit" [routerLink]="'/signin'" class="sign-up-button"> Sign Up </button><br><br>
+    </form>
+</div>
+
+<div class="signUp">
+    <P>Have an account?  <span><a routerLink="/signin"> Sign In </a></span></P>
+</div>

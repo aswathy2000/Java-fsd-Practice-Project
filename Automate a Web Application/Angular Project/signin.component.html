@@ -1,0 +1,17 @@
+<div class="container">
+    <h2>Sign In</h2>
+    <form class = "signin-form">
+        
+        <label>Username: </label><br>
+        <input type="text" placeholder=" Enter Username " id="username"/><br><br><br>
+        <label>Password: </label><br>
+        <input type="password" placeholder=" Enter Password " id="password"/><br><br><br>
+        <button type="submit" [routerLink]="'/landpage'" id="submit" class="sign-in-button"> Sign In </button><br><br>
+    </form>
+</div>
+
+<div class="sign-in">
+    <P> Don't have an account? <span><a routerLink="/signup"> Create New Account </a></span></P>
+</div>
+
+
